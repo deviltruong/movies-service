@@ -1,0 +1,13 @@
+# ignore node modules
+node_modules/
+
+# ignore IDE folder
+.idea/
+
+# ignore git folder
+.git
+
+# ignore config
+.env
+config/
+!config/config.sample.js
