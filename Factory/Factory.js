@@ -28,7 +28,7 @@ class Factory {
 }
 
 // singleton
-const instance = new Factory();
-Object.freeze(instance);
+const Instance = new Factory();
+Object.freeze(Instance);
 
-module.exports = instance;
+module.exports = Instance;

@@ -1,6 +1,6 @@
 /* eslint-env mocha */
 const { expect } = require('chai');
-const server = require('./server');
+const server = require('./Server');
 
 describe('Server', () => {
   it('should require a port to start', (done) => {

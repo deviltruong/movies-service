@@ -10,4 +10,4 @@ node_modules/
 # ignore config
 .env
 config/
-!config/config.sample.js
+!config/Config.sample.js

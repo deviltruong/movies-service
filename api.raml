@@ -4,7 +4,7 @@ version: v1
 baseUri: /
 
 types:
-  Movie:
+  MovieSchema:
     properties:
       id: string
       title: string
@@ -25,7 +25,7 @@ types:
       releaseDay: 6
 
   MoviePremieres:
-    type: Movie []
+    type: MovieSchema []
 
 
 resourceTypes:
@@ -41,4 +41,4 @@ resourceTypes:
   /premieres:
     type: { Collection: { item: MoviePremieres } }
   /{id}:
-    type: { Collection: { item: Movie } }
+    type: { Collection: { item: MovieSchema } }

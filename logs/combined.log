@@ -1,0 +1,97 @@
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+{"message":"--- Movies Service ---","level":"info"}
+{"message":"Connecting to movies repository...","level":"info"}
+{"message":"The server is listening in port 3000","level":"info"}
+2018-12-14T18:50:46+09:00 [info]: main - --- Movies Service ---
+2018-12-14T18:50:46+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T18:50:49+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T18:52:22+09:00 [info]: main - --- Movies Service ---
+2018-12-14T18:52:22+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T18:52:25+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T18:57:57+09:00 [info]: main - --- Movies Service ---
+2018-12-14T18:57:57+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T18:58:01+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T18:58:03+09:00 [info]: main - --- Movies Service ---
+2018-12-14T18:58:03+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T18:58:05+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:33:37+09:00 [info]: main - --- Movies Service ---
+2018-12-14T19:33:37+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:33:40+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:34:03+09:00 [info]: main - --- Movies Service ---
+2018-12-14T19:34:03+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:34:05+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:40:54+09:00 [info]: main - --- Movies Service ---
+2018-12-14T19:40:54+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:40:57+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:46:33+09:00 [info]: main - Movies Service
+2018-12-14T19:46:33+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:46:36+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:47:47+09:00 [info]: main - Movies Service
+2018-12-14T19:47:47+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:47:50+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:48:19+09:00 [info]: main - Movies Service
+2018-12-14T19:48:19+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:48:21+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:50:29+09:00 [info]: main - Movies Service
+2018-12-14T19:50:29+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:50:32+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:51:36+09:00 [info]: main - Movies Service
+2018-12-14T19:51:36+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:51:39+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:52:36+09:00 [info]: main - Movies Service
+2018-12-14T19:52:36+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:52:39+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:53:49+09:00 [info]: main - Movies Service
+2018-12-14T19:53:49+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:53:52+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:54:33+09:00 [info]: main - Movies Service
+2018-12-14T19:54:33+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:54:35+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T19:55:44+09:00 [info]: main - Movies Service
+2018-12-14T19:55:44+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T19:55:47+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T20:06:20+09:00 [info]: main - Movies Service
+2018-12-14T20:06:20+09:00 [info]: main - Connecting to movies repository...
+2018-12-14T20:06:23+09:00 [info]: main - The server is listening in port 3000
+2018-12-14T20:07:33+09:00 [info]: main - Movies Service
+2018-12-14T20:07:33+09:00 [info]: main - Connecting to movies repository...

@@ -1,4 +1,4 @@
-const Movie = require('./movie');
+const { Factory } = require('../Factory');
 
 class MovieService {
   // static create(title, email) {
@@ -10,11 +10,13 @@ class MovieService {
   //   return newMovie.save();
   // }
 
-  static getAllMovies() {
+  static getAllMovies(collectionName) {
+    const Movie = Factory.create('Movie', collectionName);
     return Movie.find();
   }
 
-  static getMovieById(id) {
+  static getMovieById(id, collectionName) {
+    const Movie = Factory.create('Movie', collectionName);
     return Movie.findOne({ id });
   }
 

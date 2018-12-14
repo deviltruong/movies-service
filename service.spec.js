@@ -1,9 +1,16 @@
 /* eslint-env mocha */
+process.env.NODE_ENV = 'test';
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
+
 const request = require('supertest');
 const { expect } = require('chai');
-const server = require('./server');
+const server = require('./Server');
 const { Factory } = require('./Factory');
 const MovieControllerFactory = require('./movie/MovieControllerFactory');
+const Config = require('./config/Config.test');
+
+const configs = new Config();
+Config.configENV();
 
 describe('Movies API', () => {
   let app = null;
@@ -55,8 +62,8 @@ describe('Movies API', () => {
 
   beforeEach(() => {
     server.start({
-      port: 9999,
-      repo: testRepo,
+      port: configs.PORT,
+      ssl: configs.SSL,
     }).then((serv) => {
       app = serv;
     }).catch();

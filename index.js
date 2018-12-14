@@ -1,24 +1,27 @@
-const server = require('./server');
-const Config = require('./config/config');
+process.env.NODE_ENV = 'development';
+
+const Server = require('./Server');
+const { Config } = require('./config');
 const mongoDB = require('./mongodb');
 const { FactoryRegister } = require('./Factory');
+const logger = require('./config/logger');
 
-const config = new Config();
+const configs = new Config({});
 
-console.log('--- Movies Service ---');
-console.log('Connecting to movies repository...');
+logger.info('Movies Service');
+logger.info('Connecting to movies repository...');
 
-mongoDB.connect(config)
+mongoDB.connect(configs)
   .then((connection) => {
-    FactoryRegister.register(config.FACTORY);
-    server.start({
-      port: config.PORT,
-      config,
+    FactoryRegister.register(configs.FACTORY);
+    Server.start({
+      port: configs.PORT,
+      ssl: configs.SSL,
     }).then((app) => {
-      console.log(`The server is listening in port ${config.PORT}`);
+      logger.info(`The server is listening in port ${configs.PORT}`);
       app.on('close', () => {
         connection.close();
       });
     });
   })
-  .catch(err => console.log(err));
+  .catch(err => logger.error(err));

@@ -8,7 +8,17 @@ class MovieController {
   }
 
   index(req, res, next) {
-    this.service.getAllMovies()
+    // if (!req.query.collection) {
+    //   res.status(400).json({
+    //     message: 'Thieu tham so collection',
+    //     errors: [
+    //       {
+    //         entity: 'Movie',
+    //       },
+    //     ],
+    //   });
+    // }
+    this.service.getAllMovies(req.query.collection)
       .then((movies) => {
         res.status(status.OK).json(movies);
       })
@@ -20,7 +30,17 @@ class MovieController {
   // }
 
   show(req, res, next) {
-    this.service.getMovieById(req.params.id)
+    if (!req.query.collection) {
+      res.status(400).json({
+        message: 'Thieu tham so collection',
+        errors: [
+          {
+            entity: 'Movie',
+          },
+        ],
+      });
+    }
+    this.service.getMovieById(req.params.id, req.query.collection)
       .then((movie) => {
         if (movie) {
           res.status(status.OK).json(movie);

@@ -20,4 +20,5 @@ module.exports = (name, app, controller) => {
       app[httpVerb](createURI(name, action), controller[action]);
     }
   });
+  return app;
 };
